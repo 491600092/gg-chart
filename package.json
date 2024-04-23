@@ -1,0 +1,42 @@
+{
+  "name": "relation-chart",
+  "version": "1.1.5",
+  "description": "A relation chart library based on D3.js force",
+  "main": "./dist/",
+  "scripts": {
+    "build:dev": "webpack --config webpack.config.js  --mode=development",
+    "build:prod": "webpack --config webpack.config.js  --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiedajian/relation-chart.git"
+  },
+  "files": [
+    "dist",
+    "examples/demo1"
+  ],
+  "keywords": [
+    "relation",
+    "chart",
+    "d3",
+    "force",
+    "javascript",
+    "人物关系图"
+  ],
+  "author": "xiedajian <172265972@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiedajian/relation-chart/issues"
+  },
+  "homepage": "https://github.com/xiedajian/relation-chart#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "d3": "^5.9.1"
+  }
+}
